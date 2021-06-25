@@ -1,29 +1,42 @@
 Here are the list of commands implemented by me today.
 
 
-Configure name resolution	/etc/hosts
+Configure name resolution	
+/etc/hosts
 /etc/resolv.conf	/etc/hosts
 /etc/resolv.conf
 nmcli con mod
-Configure hostname	/etc/sysconfig/network	hostnamectl
+
+
+Configure hostname
+
+
+/etc/sysconfig/network	hostnamectl
 /etc/hostname
 nmtui
-View network interface info	ip addr
 
+
+View network interface 
+
+info	ip addr
 ifconfig
 brctl	ip addr
 nmcli dev show
 teamdctl
 brctl
 bridge
-Configure network interface	/etc/sysconfig/network-scripts/ifcfg-*	/etc/sysconfig/network-scripts/ifcfg-*
+Configure network interface	
+/etc/sysconfig/network-scripts/ifcfg-*	
+/etc/sysconfig/network-scripts/ifcfg-*
 nmcli con [add|mod|edit]
 nmtui
 nm-connection-editor
 View routes	ip route
-Configure routes	ip route add
+Configure routes	
+ip route add
 system-config-network
-/etc/sysconfig/route-iface	ip route add
+/etc/sysconfig/route-iface	
+ip route add
 nmcli
 nmtui
 nm-connection-editor
